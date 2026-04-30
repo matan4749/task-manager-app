@@ -1,71 +1,74 @@
-# ✅ Task Manager
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=4,12,25&height=180&section=header&text=Task%20Manager%20App&fontSize=58&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Stay%20organized.%20Stay%20productive.&descAlignY=58&descSize=18" width="100%"/>
+</div>
 
-A modern, feature-rich task management application built with React. Organize your tasks by category, filter by status, and track your productivity with beautiful UI and persistent storage.
+<div align="center">
 
-![React](https://img.shields.io/badge/React-19.2.0-blue)
-![Vite](https://img.shields.io/badge/Vite-7.2.4-purple)
+[![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev)
+[![Vite](https://img.shields.io/badge/Vite-5-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev)
+[![LocalStorage](https://img.shields.io/badge/LocalStorage-Persistent-orange?style=for-the-badge&logo=googlechrome&logoColor=white)]()
+
+</div>
+
+<br/>
+
+## 📋 Overview
+
+A **modern task management app** built with React 18. Create, categorize, and filter tasks with persistent local storage so your tasks survive page refreshes.
+
+<br/>
+
+## 🖼️ Screenshots
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center"><strong>All Tasks</strong></td>
+      <td align="center"><strong>Filtered by Category</strong></td>
+    </tr>
+    <tr>
+      <td><img src="https://via.placeholder.com/480x300/1a1a2e/4FC3F7?text=All+Tasks+View" width="480"/></td>
+      <td><img src="https://via.placeholder.com/480x300/16213e/4FC3F7?text=Category+Filter" width="480"/></td>
+    </tr>
+  </table>
+</div>
+
+<br/>
 
 ## ✨ Features
 
-- **Task Categories**: Organize tasks into Personal, Work, and Shopping categories
-- **Status Filtering**: View All, Active, or Completed tasks
-- **Local Storage**: Tasks persist between sessions
-- **Statistics Dashboard**: Real-time stats for total, active, and completed tasks
-- **Beautiful UI**: Modern gradient design with smooth animations
-- **Responsive Design**: Works on desktop, tablet, and mobile
-- **Task Management**: Add, complete, and delete tasks easily
-- **Clear Completed**: Remove all completed tasks with one click
+- ✅ **Add / Edit / Delete** tasks with a clean form UI
+- 🏷️ **Categories** — Organize tasks by Work, Personal, Shopping, etc.
+- 🔍 **Filters** — View All, Active, or Completed tasks
+- 💾 **LocalStorage** — Tasks persist across sessions automatically
+- 📱 **Responsive** — Mobile-friendly layout
+- ⚡ **Vite** — Instant dev server and fast builds
 
-## 🚀 Quick Start
+<br/>
+
+## 🚀 Getting Started
 
 ```bash
-# Clone the repository
 git clone https://github.com/matan4749/task-manager-app.git
 cd task-manager-app
-
-# Install dependencies
 npm install
-
-# Start development server
 npm run dev
 ```
 
-Open `http://localhost:5173` in your browser.
+<br/>
 
-## 🛠️ Technologies
+## 🛠️ Built With
 
-- **React 19.2** - UI library
-- **Vite 7.2** - Build tool
-- **CSS3** - Modern styling with gradients
-- **Local Storage** - Data persistence
+- **React 18** — UI components and state
+- **Vite 5** — Build tool
+- **LocalStorage API** — Client-side persistence
+- **CSS Modules** — Scoped component styling
 
-## 📱 Usage
+<br/>
 
-1. Select a category (Personal/Work/Shopping)
-2. Type your task and click "Add Task"
-3. Check tasks as completed
-4. Filter by All/Active/Completed
-5. Delete tasks or clear all completed
+<div align="center">
 
-## 🎨 Features Showcase
+Made with ❤️ by [Matan Amar](https://matan.life)
 
-- 3 task categories with emoji icons
-- Real-time statistics cards
-- Filter system with counters
-- Smooth hover effects and transitions
-- Empty state messages
-- Persistent data storage
-
-## 👨‍💻 Author
-
-**Matan Amar**
-- GitHub: [@matan4749](https://github.com/matan4749)
-- Portfolio: [matan.life](https://matan.life)
-
-## 📄 License
-
-MIT License
-
----
-
-⭐ Star this project if you find it useful!
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=4,12,25&height=80&section=footer" width="100%"/>
+</div>
