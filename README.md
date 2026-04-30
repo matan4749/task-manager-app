@@ -14,35 +14,26 @@
 
 ## 📋 Overview
 
-A **modern task management app** built with React 18. Create, categorize, and filter tasks with persistent local storage so your tasks survive page refreshes.
+A **modern task management app** built with React 18. Create, categorize, and filter tasks with persistent local storage.
 
 <br/>
 
-## 🖼️ Screenshots
+## 🖼️ Screenshot
 
 <div align="center">
-  <table>
-    <tr>
-      <td align="center"><strong>All Tasks</strong></td>
-      <td align="center"><strong>Filtered by Category</strong></td>
-    </tr>
-    <tr>
-      <td><img src="https://via.placeholder.com/480x300/1a1a2e/4FC3F7?text=All+Tasks+View" width="480"/></td>
-      <td><img src="https://via.placeholder.com/480x300/16213e/4FC3F7?text=Category+Filter" width="480"/></td>
-    </tr>
-  </table>
+  <img src="https://raw.githubusercontent.com/matan4749/task-manager-app/main/docs/screenshot.png" width="800"/>
 </div>
 
 <br/>
 
 ## ✨ Features
 
-- ✅ **Add / Edit / Delete** tasks with a clean form UI
-- 🏷️ **Categories** — Organize tasks by Work, Personal, Shopping, etc.
+- ✅ **Add / Delete** tasks with a clean form UI
+- 🏷️ **Categories** — Personal, Work, Shopping
 - 🔍 **Filters** — View All, Active, or Completed tasks
 - 💾 **LocalStorage** — Tasks persist across sessions automatically
+- 📊 **Stats bar** — Live count of total, active and completed tasks
 - 📱 **Responsive** — Mobile-friendly layout
-- ⚡ **Vite** — Instant dev server and fast builds
 
 <br/>
 
@@ -62,7 +53,6 @@ npm run dev
 - **React 18** — UI components and state
 - **Vite 5** — Build tool
 - **LocalStorage API** — Client-side persistence
-- **CSS Modules** — Scoped component styling
 
 <br/>
 
